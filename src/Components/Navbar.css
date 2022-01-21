@@ -1,0 +1,41 @@
+.custom-navbar {
+    background-color: #11101000 !important;
+    height: 75px;
+    border-bottom: 2px solid rgb(64, 158, 212) ;
+  }
+  
+  .custom-text {
+    color: hsl(202, 23%, 9%) !important;
+    font-size: 40px !important;
+    
+  }
+  
+  .custom-icon {
+    margin-right: 5px !important;
+
+    cursor:pointer;   
+ 
+  }
+
+  
+  .custom-logo {
+    width: 40px !important;
+
+ 
+    margin: 5px 0;
+    margin-left: 14px;
+    align-items: center;
+    justify-content: center;
+    color: #edf9fe;
+    cursor: pointer;
+
+  }
+  
+  .custom-cart-indicator{
+      position: absolute !important;
+      top: 0% !important;
+      right: -40% !important;
+  }
+  .abs{
+    margin-top: 10px;
+  }
