@@ -4,16 +4,6 @@ import "firebase/firestore";
 import "firebase/storage";
 
 
-const firebaseConfig = {
-  apiKey: "AIzaSyC4uu9-FHN5OaEP5OpwgcdJOoPR5P4su2Y",
-  authDomain: "estoreok.firebaseapp.com",
-  projectId: "estoreok",
-  storageBucket: "estoreok.appspot.com",
-  messagingSenderId: "603893311348",
-  appId: "1:603893311348:web:172097e3f1a0668be9ae21",
-  measurementId: "G-HCSVJS1NH4"
-};
-
 
   const googleProvider = new firebase.auth.GoogleAuthProvider()
   export const signInWithGoogle = () => {
